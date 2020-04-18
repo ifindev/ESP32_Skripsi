@@ -1,2 +1,7 @@
 # ESP32_Skripsi
-Arduino code for ESP32 configuration as Wi-Fi Access Point (AP) and Station (STA). Also, STA is configured as web server that can handle Ajax request to refresh the measured RSSI data in the webpage. 
+Arduino code for ESP32 configuration as Wi-Fi Access Point (AP) and Station (STA). Also, STA is configured as web server that can handle Ajax request to refresh the measured RSSI data in the webpage. These programs are adapted and modified from https://circuits4you.com/ projects. See code for full description. 
+
+This code is created for my final undergraduate thesis with the topic of indoor localization using Wi-Fi RSSI data. The `ESP32_AP` repo contain an arduino for configuring ESP32 as AP with custom SSID and password. The `ESP32_RSSI_Graph_webServer` repo contain the code for configuring ESP32 as STA and webserver. 
+
+The webpage for displaying measurement values can be accessed by first configuring ESP32 as STA, then copying the printed IP Adress on the serial monitor. Measurement values can be downloaded as csv file for further processing. 
+
