@@ -16,8 +16,8 @@
 #define LED 27  //On board LED
 
 //SSID and Password of your WiFi router
-const char* ssid = "Muhammad Arifin";
-const char* password = "ipinpunya";
+const char* ssid = "YOUR-SSID-WiFi-Name";
+const char* password = "Wi-Fi Password";
 
 WebServer server(80); //Server on port 80
 
