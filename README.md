@@ -5,23 +5,17 @@ This code is created for my final undergraduate thesis with the topic of indoor 
 
 The webpage for displaying measurement values can be accessed by first configuring ESP32 as STA, then copying the printed IP Adress on the serial monitor. Measurement values can be downloaded as csv file for further processing. Also, the displayed value will be updated based on the latest measurement data using Ajax.
 
-Example of visualized real-time data on the local web and downloaded csv file is shown below. 
+Example of visualized real-time data on the local web and downloaded csv file is shown below. Missing data was due to a temporary connection lost. 
 
 ![alt Visualized data](https://github.com/effendev/ESP32_Skripsi/blob/master/data1.jpeg "Visualized data in graph and table")
-
-<html>
-	<body>
-    <br>
-    <center><p>Visualized data in graph and table</p></center>
-	</body>
-</html>
-
+<p align="center">
+	<b>Visualized data in graph and table</b><br>
+	<br>
+</p>
 
 ![alt CSV data](https://github.com/effendev/ESP32_Skripsi/blob/master/data2.jpeg "Downloaded CSV data")
-<html>
-	<body>
-    <br>
-    <center><p>Downloaded CSV Data</p></center>
-	</body>
-</html>
+
+<p align="center">
+	<b>Downloaded CSV Data</b><br>
+</p>
 
